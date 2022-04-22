@@ -1,6 +1,7 @@
 ## To Run App
 
-`yarn`
+1. `yarn`
+2. `yarn start`
 
 ## To Build App
 
