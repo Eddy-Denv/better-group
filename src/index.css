@@ -1,4 +1,126 @@
+:root {
+  --size14px: 0.875rem;
+  --size16px: 1rem;
+  --size18px: 1.125rem;
+  --size19px: 1.2rem;
+  --size20px: 1.25rem;
+  --size22px: 1.375rem;
+  --size24px: 1.5rem;
+  --size26px: 1.625rem;
+  --size28px: 1.75rem;
+  --size30px: 1.875rem;
+  --size32px: 2rem;
+
+  --white: #ffffff;
+  --spinner-color: #6688eb;
+  --gradient-one: #ebe9f7;
+  --gradient-two: #f0eef9;
+  --gradient-three: #ffffff;
+  --light-gray: #bab9c2;
+}
+
+h2 {
+  padding: var(--size14px) 0rem;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*.slick-slide div {
+  outline: none;
+}
+
+
+
+button.slick-arrow::before {
+  font-size: 30px;
+  color: var(--mid-gray);
+}
+
+/*==prev slider button==
+button.slick-arrow.slick-prev {
+  left: 30px;
+  z-index: 3;
+}
+
+/*==prev slider button==
+button.slick-arrow.slick-next {
+  right: 10px;
+  z-index: 3;
+}
+
+/*==current slide==
+.slick-active.slick-current {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  margin-left: -0.1rem;
+}
+/*==next slides==
+.slick-slide.slick-active {
+  padding-left: 0.5rem;
+  margin-right: -0.3rem;
+}
+
+@media (min-width: 375px) {
+  .slick-slide.slick-active {
+    margin-right: -2.3rem;
+  }
+}
+@media (min-width: 425px) {
+  .slick-slide.slick-active {
+    margin-right: -3.3rem;
+  }
+}
+@media (min-width: 560px) {
+  .slick-slide.slick-active {
+    margin-right: -1.3rem;
+  }
+}
+@media (min-width: 640px) {
+  .slick-slide.slick-active {
+    margin-right: -0.3rem;
+  }
+}
+@media (min-width: 767px) {
+  .slick-slide.slick-active {
+    margin-right: -1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slick-slide.slick-active {
+    margin-right: 0rem;
+  }
+  button.slick-arrow.slick-prev {
+    left: 1px;
+    top: 45%;
+  }
+
+  button.slick-arrow.slick-next {
+    right: 10px;
+    top: 45%;
+  }
+}
+@media (min-width: 1280px) {
+  button.slick-arrow.slick-prev {
+    left: 6px;
+    top: 45%;
+  }
+
+  button.slick-arrow.slick-next {
+    right: 13px;
+    top: 45%;
+  }
+}
+*/
 body {
+  background-color: #0d0c0c;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

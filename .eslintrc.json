@@ -1,11 +1,13 @@
 {
   "parser": "@babel/eslint-parser",
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "jest": true
-  },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "airbnb"
+  ],
+
+  "plugins": ["jest", "react-hooks", "react"],
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
@@ -17,12 +19,16 @@
       "presets": ["@babel/preset-react"]
     }
   },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
   "settings": {
     "react": {
       "version": "detect"
     }
   },
-  "plugins": ["jest", "react-hooks", "react"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/prop-types": "off",
@@ -32,6 +38,7 @@
       "error",
       "always",
       { "js": "never", "jsx": "never", "json": "always" }
-    ]
+    ],
+    "linebreak-style": 0
   }
 }
